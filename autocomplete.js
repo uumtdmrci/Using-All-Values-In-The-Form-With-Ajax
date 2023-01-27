@@ -33,7 +33,7 @@
 		console.log(x)
  		$.ajax({
            type: "POST",
-           url: 'https://entry.storeassessment.com/index.cfm?fuseaction=storeassessment.emptypopup_quick_q_add_query&<cfoutput>q_id=#attributes.nnqid#&ust_id=#attributes.ust_id#&survey_id=#attributes.survey_id#&cat_id=#attributes.cat_id#&visit_id=#attributes.visit_id#&company_id=#attributes.company_id#</cfoutput>&'+ x+'&photo='+photo,
+           url: 'your-worksheet',
 			success: function (response) {
                  $("#back_").html(response);
 				 
