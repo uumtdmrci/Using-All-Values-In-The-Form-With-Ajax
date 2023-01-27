@@ -16,7 +16,7 @@
 					fbase = document.getElementById('c_'+ q_id+'_1_1').getAttribute("src");
 					fname ='file_text_'+ q_id+'_1_1';
 					vid='<cfoutput>#wrk_visit_id#</cfoutput>';
-					data={visit_id:vid,file_name:fname,file_base:fbase,adres_info:"storeassessment"};
+					data={visit_id:vid,file_name:fname,file_base:fbase,adres_info:"../url"};
 					listdata.push(data);
 					savePhoto(listdata);
 					
